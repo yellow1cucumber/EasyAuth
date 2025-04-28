@@ -1,4 +1,5 @@
-﻿using EasyAuth.Services.UserPermissions;
+﻿using EasyAuth.Integration.Middleware;
+using EasyAuth.Services.UserPermissions;
 
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.DependencyInjection;

@@ -2,7 +2,7 @@
 
 using Microsoft.AspNetCore.Authorization;
 
-namespace EasyAuth.Integration
+namespace EasyAuth.Integration.Middleware
 {
     /// <summary>
     /// Handles authorization requirements based on user permissions.

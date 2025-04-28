@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 
-namespace EasyAuth.Integration
+namespace EasyAuth.Integration.Middleware
 {
     public sealed class PermissionRequirement : IAuthorizationRequirement
     {
@@ -10,7 +10,7 @@ namespace EasyAuth.Integration
         /// <param name="permission">The permission required.</param>
         public PermissionRequirement(string permission)
         {
-            this.Permission = permission;
+            Permission = permission;
         }
 
         /// <summary>
