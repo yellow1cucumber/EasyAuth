@@ -7,7 +7,7 @@ namespace EasyAuth.Services.UserPermissions
     /// <summary>
     /// Implementation of <see cref="IUserPermissionsService"/> that checks user permissions based on claims.
     /// </summary>
-    public sealed class UserPermissionService
+    public sealed class UserPermissionService : IUserPermissionsService
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="UserPermissionService"/> class.
